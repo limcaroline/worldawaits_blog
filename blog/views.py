@@ -1,9 +1,8 @@
-# remove comment later - from django.shortcuts import render 
-from django.http import HttpResponse
+from django.shortcuts import render
+from django.views import generic
+from .models import Post
 
 
 # Create your views here.
-def my_blog(request):
-    return HttpResponse("Hello, blog!")
-
-
+class PostList(generic.ListView):
+    model = Post
