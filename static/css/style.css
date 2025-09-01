@@ -1,0 +1,161 @@
+body {
+  background-color: #000000;
+}
+
+.brand {
+  font-family: Outfit, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.red-o {
+  color: #bc8c84;
+}
+
+.thin {
+  font-weight: 300;
+}
+
+.light-bg {
+  background-color: #f4f0ef;
+}
+
+.dark-bg {
+  background-color: #4d4b44;
+}
+
+.main-bg {
+  background-color: #004754;
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-flash {
+  position: absolute;
+  bottom: 5%;
+  min-width: 30%;
+  left: -2px;
+  background-color: #188181;
+}
+
+.scale {
+  width: 100%;
+  height: auto;
+}
+
+.author {
+  color: #ffffff;
+  margin: 4.5px;
+  text-transform: uppercase;
+}
+
+.masthead {
+  margin-top: 9px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  height: 30vh;
+  width: 100%;
+}
+
+.masthead-text {
+  background-color: #2372ae;
+  color: #ffffff;
+  position: relative;
+}
+
+.masthead-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.masthead-image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 90%;
+  height: 100%;
+  width: 150%;
+  background: #e4eee9;
+  -webkit-transform: skew(15deg);
+  -moz-transform: skew(15deg);
+  transform: skew(15deg);
+  z-index: 100;
+}
+
+.post-link {
+  text-decoration: none;
+  color: #a1bdbb;
+}
+
+.post-link:hover,
+.page-link {
+  color: #689dc8;
+}
+
+.post-title {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.post-subtitle {
+  margin-left: 5%;
+  color: #cac3be;
+}
+
+.btn-signup,
+.btn-edit {
+  background-color: #7dafb1;
+  color: #fff;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+  background-color: #ffffff;
+  color: #3b88b0;
+}
+
+.link {
+  color: #3b88b0;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+  color: #77a6b3;
+  text-decoration: underline;
+}
+
+.btn-like {
+  color: #bc8c84;
+  border: none;
+  background: transparent;
+}
+
+.btn-delete {
+  color: #ffffff;
+  background: #bc8c84;
+}
+
+.btn-like:hover,
+.btn-like:active {
+  color: #bc8c84;
+  background: transparent;
+  border: none;
+}
+
+.faded {
+  color: #a9a9a9;
+}
+
+.approval {
+  color: #8fbc8f;
+}
