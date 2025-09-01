@@ -9,10 +9,6 @@ body {
   color: #ffffff;
 }
 
-.red-o {
-  color: #bc8c84;
-}
-
 .thin {
   font-weight: 300;
 }
@@ -32,6 +28,14 @@ body {
 .card {
   border: none;
   background-color: transparent;
+}
+
+.card-text {
+  color: #ffffff;
+}
+
+.card-body {
+  color: #ffffff;
 }
 
 .image-container {

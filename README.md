@@ -165,6 +165,8 @@ Display like counts.
 ![Wireframe 1 - small screens](static/images/wireframe-1-small-screens.webp)
 ![Wireframe 2 - small screens](static/images/wireframe-2-small-screens.webp)
 
+
+
 ### Features
 
 - Responsive layout using CSS/Bootstrap - small and large screens
@@ -199,6 +201,7 @@ Display like counts.
 - Heroku website host https://www.heroku.com/
 - Chrome Dev tools for debugging
 - Lighthouse for performance testing
+- CI/Heroku Pythong Linter https://pep8ci.herokuapp.com/#
 
 ### Deployment & Local Development
 
@@ -247,8 +250,8 @@ Manual testing
 Manually tested the pages for responsiveness, functionality and user experience.
 
 Automated testing
-
-
+![Python linter](static/images/worldawaits_beach.webp) https://pep8ci.herokuapp.com/#
+![Lighthouse testing](static/images/Lighthouse_testing.webp)
 
 ### Future Enhancements
 
