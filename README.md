@@ -247,7 +247,7 @@ Run this command: git clone https://github.com/limcaroline/worldawaits_blog
 ### Testing
 
 Manual testing
-Manually tested the pages for responsiveness, functionality and user experience.
+Manually tested the pages for responsiveness, functionality and user experience, including writing posts and comments.
 
 Automated testing
 ![Python linter](static/images/worldawaits_beach.webp) https://pep8ci.herokuapp.com/#
