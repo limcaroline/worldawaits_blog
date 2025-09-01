@@ -157,24 +157,24 @@ Display like counts.
 
 - Home
 - Posts
+- Login/Logout
 
 #### - Wireframes
+![Wireframe 1 - large screens](static/images/wireframe-1-large-screens.webp)
+![Wireframe 2 - large screens](static/images/wireframe-2-large-screens.webp)
+![Wireframe 1 - small screens](static/images/wireframe-1-small-screens.webp)
+![Wireframe 2 - small screens](static/images/wireframe-2-small-screens.webp)
 
 ### Features
 
-- Responsive layout using CSS - mobile, tablets, larger screens
-- Navigation bar for easy browsing
-
-- Travel packages, hotel, experience (attractions and restaurants), and add-on listings in card format
-
-- Interactive map powered by Google Maps and Google Places API with relevant locations pinned
-
-- Booking form and confirmation message
+- Responsive layout using CSS/Bootstrap - small and large screens
+- Summarized snippets of travel stories for viewer selection
+- Travel story posts
+- Commenting feature
 
 ### Technologies Used
 
 #### Languages Used
-
 - Python
 - HTML
 - CSS
@@ -196,7 +196,7 @@ Display like counts.
 - The W3C CSS Validation Service to review codes https://www.w3.org/
 - Nu Html Checker to review codes https://validator.nu/
 - WebAIM: Contrast Checker to verify contrast for color palette https://webaim.org/resources/contrastchecker/
-- Heroku website host
+- Heroku website host https://www.heroku.com/
 - Chrome Dev tools for debugging
 - Lighthouse for performance testing
 
@@ -248,49 +248,19 @@ Manually tested the pages for responsiveness, functionality and user experience.
 
 Automated testing
 
-Validate the HTML code for all 3 pages. >> Looked into few warnings as below. See screenshots for example.
 
-Also see Frameworks, Libraries, and Programs used for what helped me in these tests.
-
-![HTML checker](assets/images/Image 2025-07-16 at 03.28.webp)
-
-Validation testing Note:
-
-From nu html checker:
-Changed aria-current from "Home" to "page" for all html pages.
-![HTML checker](assets/images/nu-html-checker-before.webp.webp)
-![HTML checker](assets/images/nu-html-checker.webp)
-![HTML checker](assets/images/nu-html-checker-2.webp)
-![HTML checker](assets/images/nu-html-checker-3.webp)
-
-From w3c css validator: All css ok
-![HTML checker](assets/images/w3c.webp)
-
-From auto-prefixer: Copied into codes.
-![HTML checker](assets/images/autoprefixer.webp)
-
-From lighthouse:
-Used Lighthouse to create automated reports that assess the performance, accessibility and best practices of the pages. I have gotten the results to green particularly on performance by changing the image file types from png/jpg to webp. Initially it told me I had to change the contrast on the footer, but I checked color contrast and it was high contrast so I ignored it. Results are all green
-![HTML checker](assets/images/lighthouse-results.webp)
-![HTML checker](assets/images/lighthouse-contrast.webp)
-![HTML checker](assets/images/contrast-checker.webp)
-
-From JSHint:
-![HTML checker](assets/images/jshint.webp)
 
 ### Future Enhancements
 
-- Create add-ons page for rental vehicle, insurance, airport shuttle, etc.
-- Calculate and show cumulative prices in the summaries
+- Sharing itineraries and interactive maps - see user stories (good-to-have)
 
 ### Credits
 
 Content
 
-- I wrote the content with support - see 'Acknowledgments' below.
+- I wrote the content with support from chatGPT and information from TripAdvisor - see 'Acknowledgments' below.
 
 Media
-
 - See also Frameworks, Libraries & Programs Used for more references
 - Canva for images
 - Bootstap Version 5.3 for styling/layout
